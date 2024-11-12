@@ -6,7 +6,6 @@ public class Main {
         installApplication(0, 2020);
         deliveryDistance(98, 1);
     }
-
     public static void checkIsLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " — високосный год");
@@ -14,7 +13,6 @@ public class Main {
             System.out.println(year + " — не високосный год");
         }
     }
-
     public static void installApplication(int iosVersion, int madeIN) {
         if (iosVersion == 0 && madeIN <= 2023) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
